@@ -1,0 +1,72 @@
+/* src/App.css */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: helvetica;
+}
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.session-table {
+  width: 100%;
+}
+
+.session-table th, .session-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.session-table th {
+  background-color: #f4f4f4;
+}
+
+
+
+/* ========================================================================== */
+/* src/SessionForm.css */
+.session-form {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+
+.session-form label {
+  display: block;
+  color: blueviolet;
+}
+
+.session-form input {
+  width: calc(100% - 10px);
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+}
+button{
+  padding: 10px 20px;
+  background-color: rgb(126, 126, 202);
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+h2{
+  text-align: center;
+  margin-top: 30px;
+}
+
+
